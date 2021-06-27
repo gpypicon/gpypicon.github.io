@@ -166,11 +166,43 @@
             "latlng":			"47.361153,8.51",
             "imageURL":		"img/xerox.jpg"
 		
+        },
+         {
+            "id":				"EPO - WIPO",
+            "type":			"research",
+            "label":			"IT Patent Engineer",
+            "startdate":		"2016-07",
+            "enddate":		"2020-10",
+            "description":	"R&D Novel IT Technologies",
+            "institution":	"EPO - WIPO",
+            "department":		"Informatique",
+            "technologies":	"Quantum Computing, Complex Systems Modeling, Knowledge Management",
+            "city":			"Den Haag",
+            "state":			"Holland",
+            "latlng":			"47.361153,8.51",
+            "imageURL":		"img/wipo.jpg"
+		
+        },
+         {
+            "id":				"KRATZER-AUTOMATION",
+            "type":			"job",
+            "label":			"System Integrator",
+            "startdate":		"2020-01",
+            "enddate":		"2020-07",
+            "description":	"System Integrator Cloud - Edge",
+            "institution":	"KRATZER-AUTOMATION",
+            "department":		"Informatique",
+            "technologies":	"java, mysql, apache, wildfly, aws, Linux, Microsoft",
+            "city":			"Paris",
+            "state":			"France",
+            "latlng":			"48.858400,2.3496",
+            "imageURL":		"img/ka.jpg"
+		
         }
        ],
 	"types" :      {
 		"job" : {"label" :       "Work"},
-		"research" : {"label" :       "research"},
+		"research" : {"label" :       "Research"},
 		"title" : {"label" :       "Education"}
 	}
 }
