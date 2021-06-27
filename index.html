@@ -1,5 +1,384 @@
 <html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Guillaume Picon Website">
+    <meta name="keywords" content="Engineering, Web, Internet, Cloud and General technology (ingenieur technologie)">
+    <meta name="author" content="Guillaume Picon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Guillaume Picon</title>
+
+    <style type="text/css" media="all">
+        body {
+            background: #fff;
+            background: url('img/bkgCustp.png');
+            background-repeat: no-repeat;
+            width: 1000px;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+        
+        #content {
+            float: left;
+            padding: 20px;
+            width: 1000px;
+        }
+        
+        #sidebar {
+            float: left;
+            width: 200px;
+            padding: 5px 0 0 10px;
+            top: 0px;
+            text-align: left;
+            background-color: #CCCCCC
+        }
+        
+        .sidepanel {
+            width: 185px;
+            border: 1px dotted #666;
+            padding: 5px;
+            margin: 0 0 8px 0;
+            color: #000000;
+        }
+        
+        .sidepanel h4 {
+            font-family: arial;
+            font-size: 14px;
+        }
+        
+        .sidepanel p {
+            padding: 4px 0;
+            font-size: 14px;
+            color: #000000;
+        }
+        
+        #imagecadre {
+            border: 5px solid rgba(255, 255, 255, 0.75);
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-box-border-radius: 5px;
+            border-radius: 5px;
+            -moz-box-shadow: 0px 0px 5px #c6c6bf;
+            -khtml-box-shadow: 0px 0px 5px #c6c6bf;
+            -webkit-box-shadow: 0px 0px 5px #c6c6bf;
+            box-shadow: 0px 0px 5px #c6c6bf;
+        }
+        
+        contentop {
+            background: black;
+            z-index: 10;
+        }
+        
+        a.top {
+            color: #00FF00;
+        }
+        
+        a.top:hover {
+            text-align: center;
+            background: url('img/NICE.jpg');
+            color: #FFF;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            padding-left: 1px;
+            padding-right: 1px;
+            border: 1px solid rgba(255, 255, 255, 0.75);
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            -webkit-box-border-radius: 5px;
+            border-radius: 5px;
+        }
+        
+        pablo8 {
+            text-align: left;
+            background: #FFF;
+            color: #000000;
+            padding-bottom: 10px;
+            padding-top: 30px;
+        }
+        
+        .pablo51 {
+            text-align: left;
+            background: #003399;
+            color: #FFFFFF;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        a.fisheyeItem {
+            text-align: center;
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+            width: 40px;
+            position: absolute;
+            display: block;
+            top: 0;
+        }
+        
+        a.fisheyeItem2 {
+            text-align: center;
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+            width: 40px;
+            position: absolute;
+            display: block;
+            bottom: 0;
+        }
+        
+        .fisheyeItem img {
+            border: none;
+            margin: 0 auto 5px auto;
+            width: 100%;
+        }
+        
+        .fisheyeItem2 img {
+            border: none;
+            margin: 5px auto 0 auto;
+            width: 100%;
+        }
+        
+        .fisheyeItem span,
+        .fisheyeItem2 span {
+            position: absolute;
+            display: block;
+        }
+        
+        .fisheyeContainter {
+            background-color: #000000;
+            height: 50px;
+            width: 200px;
+            left: 500px;
+            position: absolute;
+        }
+        
+        #fisheye2 {
+            position: absolute;
+            width: 100%;
+            bottom: 0px;
+        }
+    </style>
+
+
+    <script src="http://maps.google.com/maps?file=api&amp;v=2;key=AIzaSyCrPa6drXko80KV63wGgqjjTEPyGSrhUXE&sensor=false" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+        function initialize() {
+            if (GBrowserIsCompatible()) {
+                var map = new GMap2(document.getElementById("map_canvas"));
+                map.setCenter(new GLatLng(17.4419, -129), 13);
+                map.setUIToDefault();
+            }
+        }
+    </script>
+
+
+
+    <link href="filescv/isocv.js" type="application/json" rel="exhibit/data" />
+    <!-- online not needed<script src="http://api.simile-widgets.org/exhibit/3.0.0rc1/exhibit-api.js">-->
+    <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js" type="text/javascript"></script>
+    <script src="http://static.simile.mit.edu/exhibit/extensions-2.0/time/time-extension.js"></script>
+    <script src="http://static.simile.mit.edu/exhibit/extensions-2.0/map/map-extension.js?gmapkey=AIzaSyCrPa6drXko80KV63wGgqjjTEPyGSrhUXE"></script>
+
+
+    <script href="scripts/calendar-bundle.js" type="text/javascript"></script>
+    <script href="scripts/calendar-extension.js" type="text/javascript"></script>
+
+
+    <script src="http://api.simile-widgets.org/exhibit/2.2.0/extensions/calendar/calendar-extension.js"></script>
+
+    <!-- online not needed <script src="http://api.simile-widgets.org/exhibit/2.2.0/extensions/calendar/calendar-extension.js"></script>-->
+
+</head>
+
 <body>
-<h1>Hello Beautiful World</h1>
+
+    <div>
+        <a class="top" href="index.html" title="CV-Home" rel="nofollow"><img src="img/left32.png" width="24" height="24">Home</a>
+        <a class="top" href="mailto:gpypicon@gmail.com" title="Mail"><img src="img/email.png" alt="Email" />Mail</a>
+        <a class="top" title="Tel" href="tel:+33755159307" target="_blank"><img src="img/tel.png" style="border: none;" width="24" height="24" alt="Tel" />siptel</a>
+        <a class="top" href="skype:gpypicon?call"><img src="img/skype.jpg" style="border: none;" width="24" height="24" alt="SkypeMe" />Skype</a>
+        <a class="top" href="https://www.linkedin.com/in/piconus"><img src="img/linkedin.png" style="border: none;" width="24" height="24" alt="Linkedin" />Linkedin</a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <table>
+        <tr>
+            <td width="300">
+                <div align="center" style="width:auto;">
+                    <a href="index.html"><img src="img/fot.png" width="120" height="160"></a>
+                </div>
+            </td>
+            <td width="400">
+                <p align="center">&nbsp;</p>
+                <h1 align="center" class="style5">Guillaume Picon</h1>
+                <h3 align="center">*</h3>
+                <div align="center">
+                    <p class="auto-style1">Engineering for Tomorrow. Technology. Development</p>
+                </div>
+                <p align="center">&nbsp;</p>
+            </td>
+
+            <td width="300"><img alt="Scientic Engineering" height="160" src="img/disciplines2.png" width="150"></td>
+
+
+        </tr>
+    </table>
+
+    <hr>
+    <div ex:role="lens" ex:itemTypes="title" style="display: none">
+        <table width="500" cellpadding="5" bgcolor="#CCCCCC">
+            <tr>
+                <td width="80">
+                    <img ex:src-content=".imageURL"> </td>
+                <td width="420" valign="top" align="left">
+                    , <br> ,
+                    <div class="volume" ex:content=".label"></div>
+                    <div align="justify" ex:content=".description"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div ex:role="lens" ex:itemTypes="job" style="display: none">
+        <table width="500" cellpadding="5">
+            <tr>
+                <td width="80">
+                    <img ex:src-content=".imageURL"> </td>
+                <td width="420" valign="top" align="left">
+                    , <br> ,
+                    <div class="volume" ex:content=".label"></div>
+                    <div align="justify" ex:content=".description"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="pablo8">
+        <div ex:role="viewPanel">
+
+            <div ex:role="view" ex:viewClass="Timeline" ex:start=".startdate" ex:end=".enddate" ex:colorKey=".type" ex:timelineHeight=220 ex:showHeader=true ex:topBandPixelsPerUnit=70 ex:topBandUnit="year" ex:bottomBandPixelsPerUnit=100>
+
+            </div>
+
+
+
+
+
+            <div ex:role="view" ex:viewClass="Thumbnail" ex:orders=".type" ex:grouped="true" ex:directions="descending" ex:showAll="true" ex:label="List">
+                ex:possibleOrders=".label, .startdate, .enddate">
+
+                <div ex:role="exhibit-lens" class="Thumbnail" style="display: none;">
+                    <img ex:src-content=".imageURL" />
+                    <div><span ex:content=".label"></span></div>
+                    <div>
+                        <span ex:content=".startdate" class="discipline"></span>,
+                        <span ex:content=".enddate" class="year"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div ex:role="view" ex:label="Details" ex:viewClass="Tile" ex:showAll="true" ex:orders=".label, .startdate, .enddate" ex:possibleOrders=".label, .startdate, .enddate">
+            </div>
+
+            <div ex:role="view" ex:viewClass="Map" ex:latlng=".latlng" ex:zoom="3" ex:center="50.74456,4.8776" ex:colorKey=".type" ex:iconSize="40"> </div>
+
+
+
+            <div ex:role="view" ex:viewClass="Tabular" ex:label="Tabular" ex:columns=".startdate, .enddate, .type, .label, .institution, .state, .city, .description" ex:columnLabels="Start, End, Type, Label, Institution, State, City, Description" ex:formats="date { mode: short; show: date-time; template: 'YYYY-MM' }"
+                ex:sortColumn="1" ex:sortAscending="false"></div>
+
+
+            <div ex:role="view" ex:viewClass="Calendar" ex:label="Calendar" ex:start=".startdate" ex:end=".enddate" ex:eventLabel=".title" ex:formats="date { mode: short; show: date-time; template: 'YYYY-MM' } item { title: expression(.title) }"></div>
+        </div>
+    </div>
+    </div>
+    <div ex:role="facet" ex:facetClass="TextSearch" ex:facetLabel="Search"></div>
+
+
+    <table width="1002" border="0" style="font-size:10px">
+        <tr>
+            <td width="200">
+                <div ex:role="facet" ex:expression=".label" ex:facetLabel="Working as" ex:sortMode="value" ex:height="200"></div>
+            </td>
+            <td width="200">
+                <div ex:role="facet" ex:expression=".department" ex:facetLabel="Sector" ex:sortMode="value" ex:height="200"></div>
+            </td>
+            <td width="200">
+                <div ex:role="facet" ex:expression=".type" ex:facetLabel="Type" ex:sortMode="value" ex:selection="job;Education;research" ex:height="200"></div>
+            </td>
+            <td width="200">
+                <div ex:role="facet" ex:expression=".technologies" ex:facetLabel="Technologies" ex:sortMode="value" ex:height="200"></div>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+    <h3>See translations in <span style="width:auto;"><a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Cen&hl=en&ie=UTF8'); return false;" title="Google-Translate-English to English "><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-English to English " src="img/en.png" height="24" title="Google-Translate-English to English "/></a>
+      <!-- END English to French -->
+      <!-- Add English to French -->
+      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Cfr&hl=en&ie=UTF8'); return false;" title="Google-Translate-English to French "><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-English to French " src="img/fr.png" height="24" title="Google-Translate-English to French "/></a>
+      <!-- END English to French -->
+      <!-- Add English to German -->
+      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Cde&hl=en&ie=UTF8'); return false;" title="Google-Translate-English to German"><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-English to German" src="img/ger.png" height="24" title="Google-Translate-English to German"/></a>
+      <!-- END English to German -->
+      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Czh-POR&hl=en&ie=UTF8'); return false;" title="Google-Translate-Portugese"><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-Portugese" src="img/por.png" height="24" title="Google-Translate-Portugese"/></a> <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Czh-IT&hl=en&ie=UTF8'); return false;" title="Google-Translate-Italian"><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="oogle-Translate-Italian" src="img/ita.png" height="24" title="oogle-Translate-Italian"/></a>
+      <!-- Add English to Chinese (Simplified) BETA -->
+      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Czh-CN&hl=en&ie=UTF8'); return false;" title="Google-Translate-Chinese (Simplified) BETA"><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-Chinese (Simplified) BETA" src="img/chin.png" height="24" title="Google-Translate-Chinese (Simplified) BETA"/></a>
+      <!-- END English to Chinese (Simplified) BETA-->
+      <!--END English to Italian-->
+      <!--Add English to Japanese BETA-->
+      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Cja&hl=en&ie=UTF8'); return false;" title="Google-Translate-English to Japanese BETA"><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-English to Japanese BETA" src="img/jap.png" height="24" title="Google-Translate-English to Japanese BETA"/></a>
+      <!-- END English to Japanese BETA -->
+      <!-- Add English to Russian BETA -->
+      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Cru&hl=en&ie=UTF8'); return false;" title="Google-Translate-English to Russian BETA "><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-English to Russian BETA " src="img/rus.png" height="24" title="Google-Translate-English to Russian BETA "/></a>
+      <!-- END English to Russian BETA -->
+      <!-- Add English to Spanish -->
+      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Ces&hl=en&ie=UTF8'); return false;" title="Google-Translate-English to Spanish "><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-English to Spanish " src="img/spanish.png" height="24" title="Google-Translate-English to Spanish "/></a></span></h3>
+    <div class="content style4">
+        <h2><strong>Contact</strong></h2>
+    </div>
+    <div>
+        <table width="800" border="0">
+            <tr>
+                <th scope="col">
+                </th>
+                <th scope="col">
+                    <div>
+
+
+                </th>
+
+                <th scope="col3">
+
+
+
+                    <div>
+                        <p>Generate</p>
+                    </div>
+                </th>
+            </tr>
+        </table>
+        <hr>
+
+        </div>
+        <div ex:role="facet" ex:facetClass="Cloud" ex:expression=".label">
+
+        </div>
 </body>
+
 </html>
