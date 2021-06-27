@@ -14,7 +14,6 @@
             background: #fff;
             background: url('img/bkgCustp.png');
             background-repeat: no-repeat;
-            width: 1000px;
             font-family: Verdana, Arial, Helvetica, sans-serif;
             font-size: 12px;
         }
@@ -22,7 +21,6 @@
         #content {
             float: left;
             padding: 20px;
-            width: 1000px;
         }
         
         #sidebar {
@@ -177,7 +175,7 @@
 
 
     <link href="filescv/isocv.js" type="application/json" rel="exhibit/data" />
-    <!-- online not needed<script src="http://api.simile-widgets.org/exhibit/3.0.0rc1/exhibit-api.js">-->
+
     <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js" type="text/javascript"></script>
     <script src="http://static.simile.mit.edu/exhibit/extensions-2.0/time/time-extension.js"></script>
     <script src="http://static.simile.mit.edu/exhibit/extensions-2.0/map/map-extension.js?gmapkey=AIzaSyCrPa6drXko80KV63wGgqjjTEPyGSrhUXE"></script>
@@ -189,7 +187,6 @@
 
     <script src="http://api.simile-widgets.org/exhibit/2.2.0/extensions/calendar/calendar-extension.js"></script>
 
-    <!-- online not needed <script src="http://api.simile-widgets.org/exhibit/2.2.0/extensions/calendar/calendar-extension.js"></script>-->
 
 </head>
 
@@ -216,7 +213,6 @@
         <tr>
             <td width="300">
                 <div align="center" style="width:auto;">
-                    <a href="index.html"><img src="img/fot.png" width="120" height="160"></a>
                 </div>
             </td>
             <td width="400">
@@ -229,7 +225,7 @@
                 <p align="center">&nbsp;</p>
             </td>
 
-            <td width="300"><img alt="Scientic Engineering" height="160" src="img/disciplines2.png" width="150"></td>
+            <td width="300"><img alt="Scientic Engineering" height="300" src="img/disciplines2.png" width="300"></td>
 
 
         </tr>
@@ -276,8 +272,7 @@
 
 
 
-            <div ex:role="view" ex:viewClass="Thumbnail" ex:orders=".type" ex:grouped="true" ex:directions="descending" ex:showAll="true" ex:label="List">
-                ex:possibleOrders=".label, .startdate, .enddate">
+            <div ex:role="view" ex:viewClass="Thumbnail" ex:orders=".type" ex:grouped="true" ex:directions="descending" ex:showAll="true" ex:label="List" ex:possibleOrders=".label, .startdate, .enddate">
 
                 <div ex:role="exhibit-lens" class="Thumbnail" style="display: none;">
                     <img ex:src-content=".imageURL" />
@@ -329,27 +324,8 @@
 
 
     <h3>See translations in <span style="width:auto;"><a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Cen&hl=en&ie=UTF8'); return false;" title="Google-Translate-English to English "><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-English to English " src="img/en.png" height="24" title="Google-Translate-English to English "/></a>
-      <!-- END English to French -->
-      <!-- Add English to French -->
-      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Cfr&hl=en&ie=UTF8'); return false;" title="Google-Translate-English to French "><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-English to French " src="img/fr.png" height="24" title="Google-Translate-English to French "/></a>
-      <!-- END English to French -->
-      <!-- Add English to German -->
-      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Cde&hl=en&ie=UTF8'); return false;" title="Google-Translate-English to German"><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-English to German" src="img/ger.png" height="24" title="Google-Translate-English to German"/></a>
-      <!-- END English to German -->
-      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Czh-POR&hl=en&ie=UTF8'); return false;" title="Google-Translate-Portugese"><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-Portugese" src="img/por.png" height="24" title="Google-Translate-Portugese"/></a> <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Czh-IT&hl=en&ie=UTF8'); return false;" title="Google-Translate-Italian"><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="oogle-Translate-Italian" src="img/ita.png" height="24" title="oogle-Translate-Italian"/></a>
-      <!-- Add English to Chinese (Simplified) BETA -->
-      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Czh-CN&hl=en&ie=UTF8'); return false;" title="Google-Translate-Chinese (Simplified) BETA"><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-Chinese (Simplified) BETA" src="img/chin.png" height="24" title="Google-Translate-Chinese (Simplified) BETA"/></a>
-      <!-- END English to Chinese (Simplified) BETA-->
-      <!--END English to Italian-->
-      <!--Add English to Japanese BETA-->
-      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Cja&hl=en&ie=UTF8'); return false;" title="Google-Translate-English to Japanese BETA"><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-English to Japanese BETA" src="img/jap.png" height="24" title="Google-Translate-English to Japanese BETA"/></a>
-      <!-- END English to Japanese BETA -->
-      <!-- Add English to Russian BETA -->
-      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Cru&hl=en&ie=UTF8'); return false;" title="Google-Translate-English to Russian BETA "><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-English to Russian BETA " src="img/rus.png" height="24" title="Google-Translate-English to Russian BETA "/></a>
-      <!-- END English to Russian BETA -->
-      <!-- Add English to Spanish -->
-      <a target="_blank" rel="nofollow" onClick="window.open('http://www.google.com/translate?u='+encodeURIComponent(location.href)+'&langpair=en%7Ces&hl=en&ie=UTF8'); return false;" title="Google-Translate-English to Spanish "><img border="0" style="cursor:pointer; cursor:hand;" width="24" alt="Google-Translate-English to Spanish " src="img/spanish.png" height="24" title="Google-Translate-English to Spanish "/></a></span></h3>
-    <div class="content style4">
+   
+        <div class="content style4">
         <h2><strong>Contact</strong></h2>
     </div>
     <div>
