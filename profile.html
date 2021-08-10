@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html>
+<!-- Write your comments here -->
+<head>
+<title>piconus</title>
+<link rel="shortcut icon" href="files/imaging/icons/favicon.ico">
+<meta charset="UTF-8">
+<meta name="description" content="GPPW:Guillaume Picon Personal Website">
+<meta name="keywords" content="Engineering, Systems, Internet, Cloud, HTML, CSS, JavaScript, Data, and more">
+<meta name="author" content="Guillaume Picon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!-- Comment multiline block code
+<img border="0" src="picolo.jpg" alt="tea">
+-->
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+
+/* Create three equal columns that floats next to each other */
+.item {
+    float: left;
+    display: none; /* Hide columns by default */
+}
+
+/* Content */
+.content {
+    background-color: lime;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dement
+{
+  background-color:palegreen;border:1px solid black;padding: 10px; float:left; height:40px; margin:10px;
+}
+
+#dement:hover
+{
+  background-color:pink;border:1px solid black;padding: 10px; float:left; height:40px; margin:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        
+        img {
+            /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+            filter: black;
+            /* IE5+ */
+            -webkit-filter: saturate(2.2);
+            /* Webkit Nightlies & Chrome Canary */
+            -webkit-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+        }
+        
+        img:hover {
+            filter: none;
+            -webkit-filter: grayscale(0);
+            -webkit-transform: scale(1.007);
+            transform: scale(1.007);
+        }
+        
+        #infog1 {
+            white-space: nowrap;
+        }
+        
+        tr {
+            line-height: normal;
+        }
+        
+        tr:hover {
+            background: -webkit-linear-gradient(left, rgba(100, 200, 0, 0), rgba(100, 200, 0, 1));
+            /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(right, rgba(100, 200, 0, 0), rgba(100, 200, 0, 1));
+            /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(right, rgba(100, 200, 0, 0), rgba(100, 200, 0, 1));
+            /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to right, rgba(100, 200, 0, 0), rgba(100, 200, 0, 1));
+            /* Standard syntax (must be last) */
+        }
+        
+        td:hover {
+            background: -webkit-linear-gradient(right, rgba(255, 192, 203, 1), rgba(255, 192, 203, 0));
+            /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(left, rgba(255, 192, 203, 1), rgba(255, 192, 203, 0));
+            /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(left, rgba(255, 192, 203, 1), rgba(255, 192, 203, 0));
+            /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to left, rgba(255, 192, 203, 1), rgba(255, 192, 203, 0));
+            /* Standard syntax (must be last) */
+        }
+        
+        .row {
+            display: flex;
+            /* equal height of the children */
+        }
+        
+        .col {
+            flex: 1;
+            /* additionally, equal width */
+            padding: 1em;
+            border: solid;
+        }
+        
+        html {
+            color: #000;
+            font-size: 100%;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+            display: flex;
+        }
+        
+        .footer .footer-title {
+            margin-bottom: 19px;
+            font-size: 16px;
+            font-weight: 700;
+            color: #d5d5d5;
+            text-transform: uppercase;
+        }
+        
+        .footer-container-child {
+            color: #d5d5d5;
+            width: 200px;
+            margin-bottom: 25px;
+            margin-right: 10px;
+            padding-right: 10px;
+        }
+        
+        .footer.is-dark {
+            background-color: #161616;
+            color: #fff;
+        }
+        
+        .footer {
+            padding: 69px 0;
+            font-size: 14px;
+            color: #d5d5d5;
+            background-color: #fafafa;
+            padding: 3rem 1.5rem 6rem;
+            display: block;
+        }
+        
+        .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-around;
+            width: 700px;
+        }
+        
+        .footer-container1 {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            flex-direction: row;
+            margin-left: 30px;
+        }
+        
+        .wrapper {
+            min-height: 80vh;
+            overflow: hidden;
+            background-color: #fff;
+            color: #fff;
+        }
+        
+        .footer .footer-list a {
+            color: inherit;
+        }
+        
+        *,
+         :after,
+         :before {
+            box-sizing: inherit;
+        }
+    body {background-color:white;}
+
+    li.item-no-bullet {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+<script>
+
+  filterSelection("all") // Execute the function and show all columns
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("item");
+    if (c == "all") c = "";
+    // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  // Show filtered elements
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {
+        element.className += " " + arr2[i];
+      }
+    }
+  }
+  
+  // Hide elements that are not selected
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1); 
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  </script>
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// START CLOCK SCRIPT
+
+Number.prototype.pad = function(n) {
+  for (var r = this.toString(); r.length < n; r = 0 + r);
+  return r;
+};
+
+function updateClock() {
+  var now = new Date();
+  var milli = now.getMilliseconds(),
+    sec = now.getSeconds(),
+    min = now.getMinutes(),
+    hou = now.getHours(),
+    mo = now.getMonth(),
+    dy = now.getDate(),
+    yr = now.getFullYear();
+  var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  var tags = ["mon", "d", "y", "h", "m", "s", "mi"],
+    corr = [months[mo], dy, yr, hou.pad(2), min.pad(2), sec.pad(2), milli];
+  for (var i = 0; i < tags.length; i++)
+    document.getElementById(tags[i]).firstChild.nodeValue = corr[i];
+}
+
+function initClock() {
+  updateClock();
+  window.setInterval("updateClock()", 1);
+}
+
+// END CLOCK SCRIPT
+</script>
+	
+<style>
+body, html {
+  height: 100%;
+  text-align:center;
+  background: linear-gradient(#5856D6, #FFF);
+}
+
+#hourglasses {
+  fill: rgb(101, 228, 97);
+  fill: radial-gradient(circle, rgb(38, 162, 65) 0%, #5856D6 100%);
+}
+
+  
+#timedate {
+  font: small-caps lighter 18px/100% Arial, sans-serif;
+  text-align:left;
+  margin: 10px auto;
+  color:#000;
+  border-right: 10px solid red;
+  padding: 10px;
+  width:10%;
+  position:inline;
+}
+	</style>
+
+</head>
+<body onLoad="initClock()">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/css-doodle@0.19.1/css-doodle.min.js"></script>
+  <css-doodle style="text-align:left;padding:0px;display:inline;position:relative;float:left">
+  <style>
+  @grid: 2 / 10vw 10vh;
+  
+  background-size: 100vmax 100vmax;
+  background-position: @pn(0 0, 100% 0, 0 100%, 100% 100%);
+  background-image: repeating-linear-gradient(
+    @pn(-45deg, 45deg, -135deg, 135deg),
+    @stripe(#5856D6 3vmin, #FFF 3vmin)
+  );
+  
+  animation: move 130s linear infinite;
+  @keyframes move { 
+    to { 
+      background-size: 10vmax 10vmax 
+    } 
+  }
+  </style>
+  </css-doodle>
+
+
+
+  <div id="timedate" style="display:inline;position:relative;float:left">
+    <a id="mon">January</a>
+    <a id="d">21</a>,
+    <a id="y">0</a><br />
+    <a id="h">12</a> :
+    <a id="m">00</a>:
+    <a id="s">00</a>:
+    <a id="mi">000</a><br>
+    <a>Local Time</a>
+  </div>
+
+
+  <h1 style="text-align:left;padding:40px;display:inline;position:relative;float:left">Experiments</h1>
+
+
+
+
+
+<svg width="90" height="90">
+   <pattern id="tva-hourglass-pattern" x="0" y="0" patternUnits="userSpaceOnUse" width="90" height="90" viewBox="0 0 86 89"> 
+      <g id="hourglasses">
+        <polygon points="23.13 27.926 30.115 40.025 13.886 40.025 37 0 7 0 18.575 20.047 20.87 16.071 13.886 3.975 30.115 3.975 7 44 37 44 25.425 23.951 23.13 27.926"/>
+        <polygon points="58.266 23.13 46.168 30.115 46.168 13.886 86.193 37 86.193 7 66.146 18.575 70.121 20.87 82.218 13.886 82.218 30.115 42.193 7 42.193 37 62.241 25.425 58.266 23.13"/>
+        <polygon points="63.062 61.053 56.077 48.954 72.307 48.954 49.193 88.979 79.193 88.979 67.618 68.933 65.323 72.908 72.307 85.004 56.077 85.004 79.193 44.979 49.193 44.979 60.767 65.028 63.062 61.053"/>
+        <polygon points="27.926 65.849 40.025 58.864 40.025 75.093 0 51.979 0 81.979 20.047 70.405 16.071 68.109 3.975 75.093 3.975 58.864 44 81.979 44 51.979 23.951 63.554 27.926 65.849"/>
+     </g>
+   </pattern>
+   
+   <!-- The canvas for the pattern -->
+   <rect x="0" y="0" width="100%" height="100%" fill="url(#tva-hourglass-pattern)" />
+</svg>
+<br><br><br>
+
+<h3>Guillaume Picon Website</h3>
+
+
+<span style="float:left;display:block;">
+  &emsp;🟥🟧🟨&emsp;<br>
+  &emsp;🟩🟦🟪&emsp;<br>
+  &emsp;🟫⬛⬜&emsp;
+</span>
+
+
+<div style="border:1px solid black;  border-radius: 20px;margin-left:50px;display:block;position:relative;margin:auto;width:100%;text-align:center;">
+  <h1 style="text-align:left;">Profile</h1>
+  <p style="border:1px solid black;  border-radius: 20px;padding:20px;background-color:#F5F5DC;vertical-align:top;">
+      
+      <img style="margin-left:1%;width:26%;height:20%;float:right;" src="files/imaging/withjtfoxx.jfif" class="imagedeco" alt="Inforgetix Futuristic Graphic" title="Inforgetix Future">
+      
+      
+      Guillaume Picon is a <strong>Generalist Engineer</strong> and Specialist in <strong>Global Information Technology</strong>, International Projects and Internet. <br><br>
+      He is based in Paris, France.<br><br>
+      Born in Lyon, France in 1979, he followed  studies in Sciences and Technology, and has a career of more than 20 years in the sector of Information Technology. 
+      Travelling around the world, living in Ireland during 3 years and in Switzerland for 10 years, 
+      he speaks or understands currently 5 languages : <em>French, English, German/Swiss German, Portuguese, Spanish</em> 
+      by chance encountering different Cultures and Horizons.<br>
+      <br>He is a Senior Scientific Engineer, IEEE member, and finally an Expert System Engineer, specialized in the domains of
+      <em>General Engineering, Technology, Complex Systems and Knowledge Management (KM)</em> as a professional practitioner and punctual Researcher. <br><br>
+      Graduated from different schools, universities <em>(ECAM Lyon - Master in Sciences "Arts & Metiers", MIT OpenCourseWare, and Advanced Studies with Post-Docs)</em> in major disciplines of
+      <em>Physics, Mathematics, Computer Science, Industrial Management</em>. 
+      He worked as IT professional for companies like <em>IBM, HP, ATOS, XEROX, ROCHE</em> 
+      in France, Ireland, Switzerland, in relation with many regions of the World, 
+      before launching a Startup Company called <a href="https://www.inforgetix.io">INFORGETIX</a>.<br><br>
+      Inforgetix is a pioneer in Web-Assisted Quantum Complexity Machines, aiming to provide essentially "Tools for Tomorrow",
+       especially in the context of General and Special Complexity Chronodynamics, such as representing highly-variated social
+        and bio-psychic phenomenons, cultural, socio-technic, industrial or technologic systems, structures and processes with dynamically organized knowledge trees, 
+        second-generation quantum models generators (QM2), and Complex Systems Theory Computational Assistance, such as innovative Relativized System Engineering 
+        (RSE) technics to provide capable Information Systems in Chronography, Operational Safety, Prevision, Strategy & Anticipation. 
+        This company also provides real project support for all kinds of interesting ideas, 
+        covering more traditional technology, such as Cloud, CI-CD projects, System Engineering, System Integration, 
+        System Administration and Web Development.</p>
+
+<p style="float:inline-start;color:orange;"><strong>Sectors | </strong>
+
+
+  <div id="dement">
+    <a href="https://gpyicon.github.io/profile/index.html" style="font-size:100%"><em>INTERNET</em><a>
+  </div>
+
+  <div id="dement">
+    <a href="https://gpyicon.github.io/profile/index.html" style="font-size:100%">TECHNOLOGY<a>
+  </div>
+
+  <div id="dement">
+    <a href="https://gpyicon.github.io/profile/index.html" style="font-size:100%">SOFTWARE<a>
+  </div>
+
+  <div id="dement">
+    <a href="https://gpyicon.github.io/profile/index.html" style="font-size:100%">HARDWARE<a>
+  </div>
+
+</p>
+
+
+<div id="observablehq-map-6170b502"></div>
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@mbostock/solar-terminator.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "map") return new Inspector(document.querySelector("#observablehq-map-6170b502"));
+});
+</script>  
+      
+      
+<br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+<script src="./arbor_files/jquery-1.6.1.min.js"></script>
+<script src="./arbor_files/jquery.address-1.4.min.js"></script>
+
+<script src="./arbor_files/arbor.js"></script>
+<script src="./arbor_files/arbor-tween.js"></script>
+<script src="./arbor_files/arbor-graphics.js"></script>
+
+<script src="./arbor_files/site.js"></script>
+
+
+<pre>
+<style spellcheck="false" contenteditable="true">
+
+
+canvas {
+  background: linear-gradient(to right, 
+  rgb(  0,   0, 255) 0%,
+  rgb(  0, 255, 255) 16.67%,
+  rgb(  0, 255,   0) 33.33%,
+  rgb(  0, 255, 255) 50%,
+  rgb(  0,   0, 255) 66.67%,
+  rgb(  0, 255, 255) 83.33%,
+  rgb(  0, 255,   0) 100%
+);
+}
+</style>
+</pre>
+
+
+
+
+
+
+
+
+
+
+<div id="arbor" style="display: block;position:relative">
+<canvas id="sitemap" width="100%" height="70%" style="opacity: 0.8;" class=""></canvas>
+</div>
+
+
+
+<br><br><br>
+
+  <h1>
+      <strong><span style="background-color:palegreen;">x9 Core IT Services</span></strong> to support your projects 
+      <em>Anywhere & Anytime </em>:</h1>
+<hr>
+
+<br><br>
+
+  <table style="width:60%;display:inline-block;text-align:left;border-collapse:collapse;border-spacing: 4px;">
+      <caption>Services Matrix Table</caption>
+      <tr>
+          <th scope="col">*</th>
+          <th scope="col"><h2>Domain</h2></th>
+          <th scope="col"><h2>Services</h2></th>
+      </tr>
+
+      <tr>
+          <td>🟥</td>
+          <td><strong><a href="">#SysAdmin</a></strong></td>
+          <td>IT System Administration : support, integration, architecture and engineering services for <em>Microsoft, Red Hat, Linux, Unix, BSD, Android, iOS, AS400</em> technology<br><br></td>
+      </tr>
+
+
+      <tr>
+          <td>🟧</td>
+          <td><strong><a href="">#Dba</a></strong></td>
+          <td>Database Administration for <em>MySQL / SQL / PostgreSQL / Oracle / XML / MongoDB / DB2 / ElasticSearch</em> ( Datas & Big Datas )
+              <br><br></td>
+      </tr>
+      <tr>
+          <td>🟨</td>
+          <td><strong><a href="">#DevOps</a></strong></td>
+          <td>Web and Mobile Applications, Full Stack Engineering : <em>UI/UX, Algorithmics, Coding, Testing, ML, IA, XR(AR/VR), </em> Continuous Integration (CI/CD), Computer-System Validation (CSV) and coding, programming websites and applications
+              in
+              <em>Java, Python, C/C++, Javascript, R, Apache, Nginx, HTML, CSS, REST/SOAP/AJAX, Bash</em>, high quality multimedia
+              <br><br></td>
+      </tr>
+      <tr>
+          <td>🟩</td>
+          <td><strong><a href="">#ITSM</a></strong></td>
+          <td>IT Service Management with <em>ITIL, SLA, incident handling and coordination, Ticketing Level 1/2/3, Call Centers (HP Service Manager, ServiceNow, Zendesk, Remedy), Configuration Management</em>
+              <br><br></td>
+      </tr>
+      <tr>
+          <td>🟦</td>
+          <td><strong><a href="">#NetOps</a></strong></td>
+          <td>Network admin <em>Cisco, TCP-IP networks, Routing and Switching, LAN, WAN, VPN, SSL-TLS, Voice Over IP, Radio, Telecommunications, Unified Communication, Exchange, Messenging</em>
+              <br><br></td>
+      </tr>
+      <tr>
+          <td>🟪</td>
+          <td><strong><a href="">#Applications</a></strong></td>
+          <td>in CRM, SCM, HRM, FINANCE, BI, CAD-CAM, PLM, textmining, wikis, blogs, intranet, knowlege-maps, apps, sites web / Industry and Scientific Research and Laboratories
+              <br><br></td>
+      </tr>
+      <tr>
+          <td>🟫</td>
+          <td><strong><a href="">#Cloud</a></strong></td>
+          <td>Hybrid Clouds on: <em>Amazon AWS, Google GCP, IBM Cloudfoundry, Oracle Cloud, Microsoft Azure, AliBaba </em> * Hyperconvergence and hybrid-clouds: Containers, Micro-Services, Virtual Cloud (<em>VMware, Hypervisor, KVM...</em>), Datacenters,
+              Orchestration, Automation <em>(Openshift, Docker, Kubernetes, Ansible)</em>
+              <br><br></td>
+      </tr>
+      <tr>
+          <td>⬛</td>
+          <td><strong><a href="">#Cybersecurity</a></strong></td>
+          <td>IT Audit, IT Compliance, IT Security comprising <em>vulnerability analysis, tests, symmetric-asymetric encryption, certificates, firewalls, PKI, CVE patching, static-dynamic code analysis, forensics</em>
+              <br><br></td>
+      </tr>
+      <tr>
+          <td>⬜</td>
+          <td id="infog1"><strong><a href="">#Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
+          <td>Methodologies <em>AGILE, SCRUM, KAIZEN, PMP, PRINCE, HERMES, ITIL, COBIT, ISO 27001, CIS, NIST, ANSI, 
+21 CFR FDA, HIPAA, ABC, GDPR, BPML, LEAN, AGILE, SCRUM, KANBAN, CMMI</em> Architecture & Urbanism : <em>UML, BPM, CEP (Complex Event Processing)</em>
+          </td>
+      </tr>
+  </table>
+  <br>        <br>        <br>
+
+
+
+
+
+
+  <iframe width="100%" height="636.4375" frameborder="0"
+  src="https://observablehq.com/embed/@d3/orthographic-to-equirectangular?cells=canvas"></iframe>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div id="myBtnContainer" style="display:inline;position:relative">
+  <button class="uk-button uk-button-text active" onclick="filterSelection('all')"> Show all</button>
+  <button class="uk-button uk-button-text" onclick="filterSelection('nature')"> Nature</button>
+  <button class="uk-button uk-button-text" onclick="filterSelection('cars')"> Cars</button>
+  <button class="uk-button uk-button-text" onclick="filterSelection('people')"> People</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="uk-container">
+  <div class="uk-child-width-1-4">
+    <div class="item nature uk-padding-small uk-padding-remove-top">
+      <div class="uk-card uk-card-default uk-card-hover uk-box-shadow-large">
+        <img src="./w3images/1.jpg" alt="MATHEMATICS" style="width:100%">
+        <h4>Mathematics</h4>
+        <p>Lorem ipsum dolor..</p>
+        <li><a href="https://www.google.com">Analysis</a></li>
+          <li><a href="https://www.google.com">Algebra</a></li>
+          <li><a href="https://www.google.com">Geometry</a></li>
+          <li><a href="https://www.google.com">Statistics</a></li>
+          <hr>
+          <li><a href="https://www.google.com">Lab X</a></li>
+          <li><a href="https://www.google.com">Lab Y</a></li>
+          <li><a href="https://www.google.com">Lab Z</a></li>
+      </div>
+    </div>
+    <div class="item nature uk-padding-small uk-padding-remove-top">
+      <div class="uk-card uk-card-default uk-card-hover uk-box-shadow-large">
+        <img src="./w3images/2.jpg" alt="PHYSICS" style="width:100%">
+        <h4>Lights</h4>
+        <p>Lorem ipsum dolor..</p>
+                  <li><a href="https://www.google.com">Analysis</a></li>
+          <li><a href="https://www.google.com">Algebra</a></li>
+          <li><a href="https://www.google.com">Geometry</a></li>
+          <li><a href="https://www.google.com">Statistics</a></li>
+          <hr>
+          <li><a href="https://www.google.com">Lab X</a></li>
+          <li><a href="https://www.google.com">Lab Y</a></li>
+          <li><a href="https://www.google.com">Lab Z</a></li>
+      </div>
+    </div>
+    <div class="item nature uk-padding-small uk-padding-remove-top">
+      <div class="uk-card uk-card-default uk-card-hover uk-box-shadow-large">
+        <img src="./w3images/3.jpg" alt="INFORMATICS" style="width:100%">
+        <h4>Forest</h4>
+        <p>Lorem ipsum dolor..</p>
+                  <li><a href="https://www.google.com">Analysis</a></li>
+          <li><a href="https://www.google.com">Algebra</a></li>
+          <li><a href="https://www.google.com">Geometry</a></li>
+          <li><a href="https://www.google.com">Statistics</a></li>
+          <hr>
+          <li><a href="https://www.google.com">Lab X</a></li>
+          <li><a href="https://www.google.com">Lab Y</a></li>
+          <li><a href="https://www.google.com">Lab Z</a></li>
+      </div>
+    </div>
+    <div class="item cars uk-padding-small uk-padding-remove-top">
+      <div class="uk-card uk-card-default uk-card-hover uk-box-shadow-large">
+        <img src="./w3images/4.jpg" alt="SOCIAL SCIENCES" style="width:100%">
+        <h4>Retro</h4>
+        <p>Lorem ipsum dolor..</p>
+                  <li><a href="https://www.google.com">Analysis</a></li>
+          <li><a href="https://www.google.com">Algebra</a></li>
+          <li><a href="https://www.google.com">Geometry</a></li>
+          <li><a href="https://www.google.com">Statistics</a></li>
+          <hr>
+          <li><a href="https://www.google.com">Lab X</a></li>
+          <li><a href="https://www.google.com">Lab Y</a></li>
+          <li><a href="https://www.google.com">Lab Z</a></li>
+      </div>
+    </div>
+    <div class="item cars uk-padding-small uk-padding-remove-top">
+      <div class="uk-card uk-card-default uk-card-hover uk-box-shadow-large">
+        <img src="./w3images/5.jpg" alt="CONSTRUCTION" style="width:100%">
+        <h4>Fast</h4>
+        <p>Lorem ipsum dolor..</p>
+                  <li><a href="https://www.google.com">Analysis</a></li>
+          <li><a href="https://www.google.com">Algebra</a></li>
+          <li><a href="https://www.google.com">Geometry</a></li>
+          <li><a href="https://www.google.com">Statistics</a></li>
+          <hr>
+          <li><a href="https://www.google.com">Lab X</a></li>
+          <li><a href="https://www.google.com">Lab Y</a></li>
+          <li><a href="https://www.google.com">Lab Z</a></li>
+      </div>
+    </div>
+    <div class="item cars uk-padding-small uk-padding-remove-top">
+      <div class="uk-card uk-card-default uk-card-hover uk-box-shadow-large">
+        <img src="./w3images/6.jpg" alt="PROJECT MANAGEMENT" style="width:100%">
+        <h4>Classic</h4>
+        <p>Lorem ipsum dolor..</p>
+                  <li><a href="https://www.google.com">Analysis</a></li>
+          <li><a href="https://www.google.com">Algebra</a></li>
+          <li><a href="https://www.google.com">Geometry</a></li>
+          <li><a href="https://www.google.com">Statistics</a></li>
+          <hr>
+          <li><a href="https://www.google.com">Lab X</a></li>
+          <li><a href="https://www.google.com">Lab Y</a></li>
+          <li><a href="https://www.google.com">Lab Z</a></li>
+      </div>
+    </div>
+    <div class="item people uk-padding-small uk-padding-remove-top">
+      <div class="uk-card uk-card-default uk-card-hover uk-box-shadow-large">
+        <img src="./w3images/7.jpg" alt="PROSPECTIVE" style="width:100%">
+        <h4>Girl</h4>
+        <p>Lorem ipsum dolor..</p>
+                  <li><a href="https://www.google.com">Analysis</a></li>
+          <li><a href="https://www.google.com">Algebra</a></li>
+          <li><a href="https://www.google.com">Geometry</a></li>
+          <li><a href="https://www.google.com">Statistics</a></li>
+          <hr>
+          <li><a href="https://www.google.com">Lab X</a></li>
+          <li><a href="https://www.google.com">Lab Y</a></li>
+          <li><a href="https://www.google.com">Lab Z</a></li>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
