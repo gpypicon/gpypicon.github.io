@@ -349,13 +349,12 @@ body, html {
   
 #timedate {
   font: small-caps lighter 18px/100% Arial, sans-serif;
-  text-align:left;
+  text-align:justify;
   margin: 10px auto;
-  color:#000;
+  color:#FFF;
   border-right: 10px solid red;
   padding: 10px;
-  width:10%;
-  position:inline;
+  display:block;position:absolute;overflow:hidden;width:200px;height:50px;float:none
 }
 	</style>
 
@@ -386,15 +385,15 @@ body, html {
 
 
 
-  <div id="timedate" style="display:inline;position:relative;float:left">
+  <div id="timedate">
     <a id="mon">January</a>
     <a id="d">21</a>,
-    <a id="y">0</a><br />
+    <a id="y">0</a>-
     <a id="h">12</a> :
     <a id="m">00</a>:
     <a id="s">00</a>:
-    <a id="mi">000</a><br>
-    <a>Local Time</a>
+    <a id="mi">000</a>&nbsp;&nbsp;&nbsp;
+    <br>
   </div>
 
 
