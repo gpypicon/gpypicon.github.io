@@ -1,0 +1,165 @@
+.div800 {
+	width:80%;
+	background:#FFFFFF;
+}
+
+
+#container {
+    width: 100%;
+    height: 600px;
+    margin:0 auto;
+    position:relative;
+}
+
+#left-container, 
+#right-container, 
+#center-container {
+    height:60%;
+    position:absolute;
+    top:2px;
+}
+
+#left-container, #right-container {
+    width:137px;
+    color:#686c70;
+    text-align: left;
+    overflow: auto;
+    background-color:#fff;
+    background-repeat:no-repeat;
+    border-bottom:1px solid #ddd;
+}
+
+#left-container {
+    left:65px;
+    background-image:url('col2.png');
+    background-position:center right;
+    border-left:1px solid #ddd;
+    
+}
+
+#right-container {
+    right:0;
+    background-image:url('col1.png');
+    background-position:center left;
+    border-right:1px solid #ddd;
+}
+
+#right-container h4{
+    text-indent:20px;
+}
+
+#center-container {
+    width:60%;
+    left:200px;
+    background-color:#1a1a1a;
+    color:#ccc;
+}
+
+.text {
+    margin: 20px;
+}
+
+#inner-details {
+    font-size:2em;
+    list-style:none;
+    margin:20px;
+}
+
+#log {
+    position:absolute;
+    top:30px;
+    font-size:1.0em;
+    font-weight:bold;
+    color:#23A4FF;
+}
+
+
+#right-container {
+    display:none;
+}
+
+
+#infovis {
+    position:relative;
+    width:60%;
+    height:60%;
+	font-size:13px;
+	font-stretch:wider;
+	text-align:center;
+    overflow:hidden;
+}
+#infovis div {
+    position:absolute;
+    overflow:hidden;
+    font-size:13px;
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#infovis .content {
+    background-color:#333;
+    border-top:10px solid #333;
+}
+
+#infovis .head {
+    color:white;
+    background-color:#444; 
+}
+
+#infovis .head.in-path {
+    background-color:#655;
+}
+
+#infovis .body {
+    background-color:white;
+}
+
+#infovis .leaf {
+    color:white;
+    background-color:#111;
+    display:table-cell;
+    vertical-align:middle;
+    border:1px solid #000;
+}
+
+
+#infovis .over-leaf {
+    border:1px solid #FF99FF; 
+}
+
+#infovis .over-content {
+    background-color: #FFF;
+}
+
+#infovis .over-head { 
+    background-color:#FF3300;
+    color:black;
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+    overflow:hidden;
+}
+
+/*TOOLTIPS*/
+.tip {
+    color: #fff;
+    width: 100px;
+    background-color: black;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    font-size:10px;
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+    padding:5px;
+}
+ 
+.album {
+    width:50px;
+    margin:0px;
+}
+
+input {
+    font-size:10px;
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+
+
